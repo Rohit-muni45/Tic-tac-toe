@@ -1,0 +1,164 @@
+ 
+body {
+  background-image: url("https://img.freepik.com/free-vector/gradient-galaxy-background_23-2148971479.jpg?w=740&t=st=1707155041~exp=1707155641~hmac=a9d07447091f790be37c509e19d8da51aab5debd74b04d2961d6bab3600f8c38");
+  text-align: center;
+  color: aqua;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-size: cover;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #6a3eb0;
+  background-color: #e5ebd4;
+}
+
+
+#msg {
+  color: #dfe092;
+  font-size: 5vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+.bt{
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+  /* new button */
+
+.button-37 {
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .button-37:hover {
+    filter: brightness(1.05);
+  }
+  
+  .button-37:active {
+    transform: scale(.95);
+  }
+
+  /* Reset button */
+  
+  .button-36 {
+    color: #fff;
+    padding: 15px 25px;
+    background-color: #38D2D2;
+    background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+  
+  .button-36:hover {
+    filter: brightness(1.05);
+  }
+  
+  .button-36:active {
+    transform: scale(.95);
+  }
+
+  @media screen and (max-width: 600px){
+    .container {
+      height: 60vh;
+    }
+  
+    .game {
+      height: 80vmin;
+      width: 80vmin;
+    }
+  
+    .box {
+      height: 25vmin;
+      width: 25vmin;
+      font-size: 14vmin;
+    }
+  
+    #msg {
+      font-size: 10vmin;
+    }
+  
+    .button-36, .bt {
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      margin-bottom: 100px;
+    }
+    .bt{
+      margin-bottom: 20px;
+    }
+
+    .button-37{
+      font-size: 1.5rem;
+      padding: 10px 20px;
+    }
+  }
+  
